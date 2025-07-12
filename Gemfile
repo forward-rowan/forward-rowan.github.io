@@ -1,20 +1,23 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2"
+# Jekyll版本
+gem "jekyll", "~> 4.3"
+
+# 必要的依赖
 gem "webrick", "~> 1.7"
 
+# Jekyll插件
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
 end
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
+# Windows系统支持
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
+# 性能优化（Windows）
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
