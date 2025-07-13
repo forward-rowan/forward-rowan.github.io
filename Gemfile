@@ -20,4 +20,5 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # 性能优化（Windows）
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+# 打开 Gemfile，找到 wdm 这行，改成：
+#gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin], :require => false
