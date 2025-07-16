@@ -288,3 +288,182 @@ body {
         padding: 25px;
     }
 }
+.posts-section, .post-card {
+    background: #fff !important;
+    /* 彻底白色，提升对比度 */
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(102, 126, 234, 0.08);
+    border: 1px solid #f0f0f0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #222; /* 更深的灰色 */
+    font-size: 18px; /* 更大字号 */
+    line-height: 1.8; /* 更大行高 */
+}
+.post-content, .post-card, .posts-section {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #222;
+    word-break: break-word;
+}
+
+.post-content p, .post-card p {
+    margin: 1em 0;
+}
+
+.post-content h1, .post-content h2, .post-content h3,
+.post-card h1, .post-card h2, .post-card h3 {
+    color: #222;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+pre, code {
+    background: #f4f4f4;
+    color: #333;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 16px;
+}
+
+pre {
+    padding: 16px;
+    overflow-x: auto;
+}
+
+blockquote {
+    border-left: 4px solid #b4b4b4;
+    background: #f6f6f6;
+    color: #555;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+}
+@media (max-width: 768px) {
+    .posts-section, .post-card {
+        padding: 16px;
+    }
+    body {
+        font-size: 16px;
+    }
+}
+/* 1. 极简理工风背景和基础色 */
+body {
+    background: #f5f6fa !important; /* 浅灰色背景 */
+    color: #222 !important;         /* 深灰色字体 */
+    font-family: "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 20px !important;     /* 更大字号 */
+    line-height: 1.9 !important;
+}
+
+/* 2. 内容区卡片样式 */
+.posts-section, .post-card {
+    background: #fff !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04) !important;
+    border: 1px solid #e5e6eb !important;
+}
+
+/* 3. 标题样式 */
+h1, h2, h3, h4, h5, h6,
+.post-title {
+    color: #222 !important;
+    font-weight: 700 !important;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.02em;
+}
+
+/* 4. 日期和元信息样式 */
+.post-meta, .read-time, .post-date {
+    color: #888 !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    margin-bottom: 0.5em;
+}
+
+/* 5. 正文段落 */
+p, li {
+    font-size: 1.1em !important;
+    color: #222 !important;
+    margin: 1em 0;
+}
+
+/* 6. 代码块和引用 */
+pre, code {
+    background: #f3f3f3 !important;
+    color: #1a1a1a !important;
+    border-radius: 4px !important;
+    padding: 2px 6px !important;
+    font-size: 1em !important;
+}
+pre {
+    padding: 16px !important;
+    overflow-x: auto !important;
+}
+blockquote {
+    border-left: 4px solid #b4b4b4 !important;
+    background: #f6f6f6 !important;
+    color: #555 !important;
+    margin: 1em 0 !important;
+    padding: 0.5em 1em !important;
+    border-radius: 6px !important;
+}
+
+/* 7. 链接样式 */
+a {
+    color: #1565c0 !important;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* 8. 移动端优化 */
+@media (max-width: 768px) {
+    body {
+        font-size: 17px !important;
+    }
+    .posts-section, .post-card {
+        padding: 12px !important;
+    }
+}
+/* 代码块整体样式 */
+pre, code {
+    background: #23272f !important;   /* 深色背景 */
+    color: #f8f8f2 !important;        /* 浅色字体 */
+    border-radius: 6px !important;
+    font-size: 1em !important;
+    font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', monospace !important;
+}
+
+/* 多行代码块 */
+pre {
+    padding: 18px 20px !important;
+    margin: 1.2em 0 !important;
+    overflow-x: auto !important;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.06);
+    border: 1px solid #e5e6eb !important;
+}
+
+/* 行内代码 */
+code {
+    padding: 2px 6px !important;
+    background: #ececec !important;
+    color: #c7254e !important;
+    border-radius: 4px !important;
+    font-size: 0.97em !important;
+    margin: 0 2px;
+}
+
+/* 让 pre 里的 code 继承深色风格 */
+pre code {
+    background: transparent !important;
+    color: inherit !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    font-size: inherit !important;
+}
