@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-13T14:50:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rowan’s Blog</title><subtitle>一个CS和自动化的爱好者</subtitle><author><name>Rowan</name></author><entry><title type="html">实时社交AI助手：从信号处理到认知计算的技术深度剖析</title><link href="http://localhost:4000/dialogue-ai/" rel="alternate" type="text/html" title="实时社交AI助手：从信号处理到认知计算的技术深度剖析" /><published>2025-07-02T00:00:00+09:00</published><updated>2025-07-02T00:00:00+09:00</updated><id>http://localhost:4000/dialogue-ai</id><content type="html" xml:base="http://localhost:4000/dialogue-ai/"><![CDATA[<h1 id="实时社交ai助手从信号处理到认知计算的技术深度剖析">实时社交AI助手：从信号处理到认知计算的技术深度剖析</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-17T05:50:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rowan’s Blog</title><subtitle>一个CS和自动化的爱好者</subtitle><author><name>Rowan</name></author><entry><title type="html">实时社交AI助手：从信号处理到认知计算的技术深度剖析</title><link href="http://localhost:4000/dialogue-ai/" rel="alternate" type="text/html" title="实时社交AI助手：从信号处理到认知计算的技术深度剖析" /><published>2025-07-02T00:00:00+09:00</published><updated>2025-07-02T00:00:00+09:00</updated><id>http://localhost:4000/dialogue-ai</id><content type="html" xml:base="http://localhost:4000/dialogue-ai/"><![CDATA[<h1 id="实时社交ai助手从信号处理到认知计算的技术深度剖析">实时社交AI助手：从信号处理到认知计算的技术深度剖析</h1>
 
 <h2 id="引言重新定义人际交互的计算范式">引言：重新定义人际交互的计算范式</h2>
 
@@ -783,4 +783,278 @@
   <li>专注于真正有价值的讨论</li>
 </ol>
 
-<p>记住：不是每个人都值得你去争论，选择你的战场。</p>]]></content><author><name>Rowan</name></author><category term="思考" /><category term="人生哲学" /><summary type="html"><![CDATA[吵架只能跟与自己层次相当或者比自己层次高的人吵，否则毫无必要。]]></summary></entry></feed>
+<p>记住：不是每个人都值得你去争论，选择你的战场。</p>]]></content><author><name>Rowan</name></author><category term="思考" /><category term="人生哲学" /><summary type="html"><![CDATA[吵架只能跟与自己层次相当或者比自己层次高的人吵，否则毫无必要。]]></summary></entry><entry><title type="html">从零开始：打造个人专属的英日语学习小工具</title><link href="http://localhost:4000/language-learning-tool/" rel="alternate" type="text/html" title="从零开始：打造个人专属的英日语学习小工具" /><published>2024-07-06T13:00:00+09:00</published><updated>2024-07-06T13:00:00+09:00</updated><id>http://localhost:4000/language-learning-tool</id><content type="html" xml:base="http://localhost:4000/language-learning-tool/"><![CDATA[<h1 id="从零开始打造个人专属的英日语学习小工具">从零开始：打造个人专属的英日语学习小工具</h1>
+
+<h2 id="项目背景">项目背景</h2>
+
+<p>在学习英语和日语的过程中，我发现现有的学习应用要么功能过于复杂，要么不够个性化。于是我决定自己动手，开发一个简单实用的词汇学习工具。</p>
+
+<p>这个项目的核心理念很简单：<strong>遇到不会的词就记录下来，让AI帮忙翻译和造句</strong>。</p>
+
+<h2 id="需求分析">需求分析</h2>
+
+<h3 id="核心功能">核心功能</h3>
+<ul>
+  <li>📝 快速输入单词、词组或句子</li>
+  <li>🌐 支持英语和日语输入</li>
+  <li>🤖 自动调用AI进行翻译</li>
+  <li>📚 生成实用例句</li>
+  <li>💾 本地存储学习记录</li>
+  <li>🎯 目标语言可选择（中文为主）</li>
+</ul>
+
+<h3 id="技术要求">技术要求</h3>
+<ul>
+  <li>轻量级，响应快速</li>
+  <li>跨平台（手机、电脑都能用）</li>
+  <li>离线数据存储</li>
+  <li>低成本或免费运行</li>
+</ul>
+
+<h2 id="技术选型">技术选型</h2>
+
+<h3 id="为什么选择web应用">为什么选择Web应用？</h3>
+
+<p>对于初学者来说，Web应用有几个明显优势：</p>
+
+<ol>
+  <li><strong>跨平台兼容</strong>：一套代码，手机电脑都能用</li>
+  <li><strong>开发门槛低</strong>：HTML、CSS、JavaScript是最容易入门的技术</li>
+  <li><strong>调试方便</strong>：浏览器开发者工具功能强大</li>
+  <li><strong>部署简单</strong>：本地运行，无需服务器</li>
+</ol>
+
+<h3 id="技术栈选择">技术栈选择</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>前端：HTML + CSS + JavaScript (原生)
+后端：Node.js + Express
+数据库：SQLite
+API：免费翻译API + ChatGPT API（可选）
+</code></pre></div></div>
+
+<p><strong>为什么不用框架？</strong></p>
+<ul>
+  <li>作为初学者，先掌握原生JavaScript更重要</li>
+  <li>项目规模小，框架反而增加复杂度</li>
+  <li>便于理解底层原理</li>
+</ul>
+
+<h2 id="系统架构设计">系统架构设计</h2>
+
+<h3 id="整体架构">整体架构</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│     前端界面     │───→│     后端API     │───→│     数据库      │
+│  (用户交互)     │    │  (业务逻辑)     │    │  (数据存储)     │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+         │                       │
+         │                       ▼
+         │              ┌─────────────────┐
+         │              │   外部API服务   │
+         │              │  (翻译/词典)    │
+         └──────────────→└─────────────────┘
+</code></pre></div></div>
+
+<h3 id="数据流设计">数据流设计</h3>
+
+<ol>
+  <li><strong>用户输入</strong> → 前端收集数据</li>
+  <li><strong>数据验证</strong> → 检查输入格式和语言</li>
+  <li><strong>API调用</strong> → 获取翻译和例句</li>
+  <li><strong>数据存储</strong> → 保存到本地数据库</li>
+  <li><strong>结果展示</strong> → 返回给用户界面</li>
+</ol>
+
+<h2 id="核心功能实现">核心功能实现</h2>
+
+<h3 id="1-数据结构设计">1. 数据结构设计</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 词汇条目的数据结构</span>
+<span class="kd">const</span> <span class="nx">WordEntry</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">id</span><span class="p">:</span> <span class="nb">Number</span><span class="p">,</span>           <span class="c1">// 唯一标识</span>
+    <span class="na">original</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>     <span class="c1">// 原始输入</span>
+    <span class="na">language</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>     <span class="c1">// 语言类型 (en/ja)</span>
+    <span class="na">translation</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>  <span class="c1">// 翻译结果</span>
+    <span class="na">example</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>      <span class="c1">// 例句</span>
+    <span class="na">timestamp</span><span class="p">:</span> <span class="nb">Date</span><span class="p">,</span>      <span class="c1">// 创建时间</span>
+    <span class="na">targetLanguage</span><span class="p">:</span> <span class="nb">String</span> <span class="c1">// 目标语言</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="2-语言检测">2. 语言检测</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">detectLanguage</span><span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 检测日语（平假名、片假名、汉字）</span>
+    <span class="kd">const</span> <span class="nx">japaneseRegex</span> <span class="o">=</span> <span class="sr">/</span><span class="se">[\u</span><span class="sr">3040-</span><span class="se">\u</span><span class="sr">309F</span><span class="se">\u</span><span class="sr">30A0-</span><span class="se">\u</span><span class="sr">30FF</span><span class="se">\u</span><span class="sr">4E00-</span><span class="se">\u</span><span class="sr">9FAF</span><span class="se">]</span><span class="sr">/</span><span class="p">;</span>
+    
+    <span class="c1">// 检测英语（基本拉丁字母）</span>
+    <span class="kd">const</span> <span class="nx">englishRegex</span> <span class="o">=</span> <span class="sr">/^</span><span class="se">[</span><span class="sr">a-zA-Z</span><span class="se">\s</span><span class="sr">.,!?'-</span><span class="se">]</span><span class="sr">+$/</span><span class="p">;</span>
+    
+    <span class="k">if </span><span class="p">(</span><span class="nx">japaneseRegex</span><span class="p">.</span><span class="nf">test</span><span class="p">(</span><span class="nx">text</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="dl">'</span><span class="s1">ja</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if </span><span class="p">(</span><span class="nx">englishRegex</span><span class="p">.</span><span class="nf">test</span><span class="p">(</span><span class="nx">text</span><span class="p">))</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="dl">'</span><span class="s1">en</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="k">return</span> <span class="dl">'</span><span class="s1">unknown</span><span class="dl">'</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="3-api集成策略">3. API集成策略</h3>
+
+<p>为了控制成本，我们采用<strong>分层API策略</strong>：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// API优先级：免费 → 付费</span>
+<span class="kd">const</span> <span class="nx">apiPriority</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="dl">'</span><span class="s1">dictionaryapi</span><span class="dl">'</span><span class="p">,</span>    <span class="c1">// 免费词典API</span>
+    <span class="dl">'</span><span class="s1">baiduTranslate</span><span class="dl">'</span><span class="p">,</span>   <span class="c1">// 百度翻译（免费额度）</span>
+    <span class="dl">'</span><span class="s1">chatgpt</span><span class="dl">'</span>           <span class="c1">// ChatGPT（付费但效果好）</span>
+<span class="p">];</span>
+</code></pre></div></div>
+
+<h3 id="4-本地存储方案">4. 本地存储方案</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 使用SQLite进行本地存储</span>
+<span class="kd">const</span> <span class="nx">sqlite3</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">sqlite3</span><span class="dl">'</span><span class="p">).</span><span class="nf">verbose</span><span class="p">();</span>
+
+<span class="c1">// 创建数据表</span>
+<span class="kd">const</span> <span class="nx">createTable</span> <span class="o">=</span> <span class="s2">`
+    CREATE TABLE IF NOT EXISTS words (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        original TEXT NOT NULL,
+        language TEXT NOT NULL,
+        translation TEXT,
+        example TEXT,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+    )
+`</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h2 id="开发心得">开发心得</h2>
+
+<h3 id="从底层理解计算机原理">从底层理解计算机原理</h3>
+
+<p>在开发过程中，我逐渐理解了一些计算机底层概念：</p>
+
+<ol>
+  <li><strong>HTTP协议</strong>：前端和后端通过HTTP请求进行通信</li>
+  <li><strong>JSON数据格式</strong>：数据在网络中以JSON格式传输</li>
+  <li><strong>数据库索引</strong>：为了快速查找词汇，需要建立索引</li>
+  <li><strong>异步编程</strong>：API调用是异步的，需要用Promise处理</li>
+</ol>
+
+<h3 id="遇到的技术挑战">遇到的技术挑战</h3>
+
+<ol>
+  <li><strong>跨域问题</strong>：前端调用后端API时的CORS设置</li>
+  <li><strong>异步处理</strong>：多个API调用的顺序管理</li>
+  <li><strong>错误处理</strong>：网络异常时的用户体验</li>
+  <li><strong>数据同步</strong>：多设备间的数据一致性</li>
+</ol>
+
+<h3 id="解决方案">解决方案</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 解决跨域问题</span>
+<span class="nx">app</span><span class="p">.</span><span class="nf">use</span><span class="p">((</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nf">header</span><span class="p">(</span><span class="dl">'</span><span class="s1">Access-Control-Allow-Origin</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">*</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nf">header</span><span class="p">(</span><span class="dl">'</span><span class="s1">Access-Control-Allow-Headers</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Content-Type</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nf">next</span><span class="p">();</span>
+<span class="p">});</span>
+
+<span class="c1">// 优雅的错误处理</span>
+<span class="k">async</span> <span class="kd">function</span> <span class="nf">safeApiCall</span><span class="p">(</span><span class="nx">apiFunction</span><span class="p">,</span> <span class="nx">fallbackValue</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">try</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">await</span> <span class="nf">apiFunction</span><span class="p">();</span>
+    <span class="p">}</span> <span class="k">catch </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="dl">'</span><span class="s1">API调用失败:</span><span class="dl">'</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nx">fallbackValue</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="项目亮点">项目亮点</h2>
+
+<h3 id="1-渐进式开发">1. 渐进式开发</h3>
+<ul>
+  <li><strong>MVP阶段</strong>：基础的输入和存储功能</li>
+  <li><strong>增强阶段</strong>：添加API集成和智能功能</li>
+  <li><strong>优化阶段</strong>：改进用户体验和性能</li>
+</ul>
+
+<h3 id="2-成本控制">2. 成本控制</h3>
+<ul>
+  <li>优先使用免费API</li>
+  <li>本地存储避免云服务费用</li>
+  <li>按需付费的ChatGPT集成</li>
+</ul>
+
+<h3 id="3-用户体验">3. 用户体验</h3>
+<ul>
+  <li>简洁的界面设计</li>
+  <li>快速的响应速度</li>
+  <li>离线功能支持</li>
+</ul>
+
+<h2 id="技术总结">技术总结</h2>
+
+<h3 id="学到的知识点">学到的知识点</h3>
+
+<ol>
+  <li><strong>前端开发</strong>：DOM操作、事件处理、异步请求</li>
+  <li><strong>后端开发</strong>：RESTful API设计、数据库操作</li>
+  <li><strong>网络编程</strong>：HTTP协议、API调用、错误处理</li>
+  <li><strong>数据库</strong>：SQLite的使用、SQL语句编写</li>
+  <li><strong>软件工程</strong>：需求分析、架构设计、测试调试</li>
+</ol>
+
+<h3 id="代码组织">代码组织</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>project/
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── backend/
+│   ├── server.js
+│   ├── database.js
+│   └── api.js
+├── database/
+│   └── words.db
+└── README.md
+</code></pre></div></div>
+
+<h2 id="未来规划">未来规划</h2>
+
+<h3 id="短期目标">短期目标</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />完善词汇管理功能</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />添加学习统计</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />优化移动端体验</li>
+</ul>
+
+<h3 id="长期目标">长期目标</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />智能复习算法</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />语音识别输入</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />云端同步功能</li>
+</ul>
+
+<h2 id="给其他初学者的建议">给其他初学者的建议</h2>
+
+<ol>
+  <li><strong>从简单开始</strong>：先实现核心功能，再添加高级特性</li>
+  <li><strong>多动手实践</strong>：理论知识要通过实际项目来巩固</li>
+  <li><strong>善用免费资源</strong>：很多优秀的开源工具和免费API可以使用</li>
+  <li><strong>记录开发过程</strong>：写技术博客能帮助理清思路</li>
+  <li><strong>不要害怕出错</strong>：每个错误都是学习的机会</li>
+</ol>
+
+<h2 id="结语">结语</h2>
+
+<p>这个项目让我深刻体会到了软件开发的乐趣。从最初的想法到最终的实现，每一步都充满了挑战和收获。虽然作为初学者，代码可能不够优雅，但是解决实际问题的成就感是无可替代的。</p>
+
+<p>希望这篇文章能给其他想要开发个人项目的同学一些启发。记住：<strong>最好的学习方式就是动手实践</strong>！</p>
+
+<hr />
+
+<p><strong>技术标签：</strong> #JavaScript #Node.js #SQLite #WebDevelopment #PersonalProject #LanguageLearning</p>]]></content><author><name>Rowan</name></author><category term="项目实践" /><category term="JavaScript" /><category term="Node.js" /><category term="SQLite" /><category term="WebDevelopment" /><category term="PersonalProject" /><category term="LanguageLearning" /><summary type="html"><![CDATA[从零开始：打造个人专属的英日语学习小工具]]></summary></entry></feed>
