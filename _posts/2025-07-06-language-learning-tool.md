@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "从零开始：打造个人专属的英日语学习小工具"
-date: 2024-07-06 12:00:00 +0800
+date: 2025-07-06 12:00:00 +0800
 categories: 项目实践
 tags: [JavaScript, Node.js, SQLite, WebDevelopment, PersonalProject, LanguageLearning]
 ---
-# 从零开始：打造个人专属的英日语学习小工具
 
 ## 项目背景
 

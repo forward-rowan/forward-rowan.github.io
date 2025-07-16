@@ -103,31 +103,22 @@ body {
     z-index: 1;
 }
 
-.social-link {
+.social-link, .follow-btn {
     padding: 12px 24px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
+    background: #fff !important; /* 纯白背景 */
+    color: #1565c0 !important;   /* 理工蓝字体 */
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
+    border: 2px solid #1565c0 !important;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 2px 8px rgba(44,62,80,0.06);
 }
 
-.social-link:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
-}
-
-.follow-btn {
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px solid rgba(102, 126, 234, 0.3);
-    color: #667eea;
-}
-
-.follow-btn:hover {
-    background: rgba(102, 126, 234, 0.1);
-    border-color: #667eea;
+.social-link:hover, .follow-btn:hover {
+    background: #f5f6fa !important;
+    color: #003366 !important;
+    border-color: #003366 !important;
 }
 
 .posts-section {
